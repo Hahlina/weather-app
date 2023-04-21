@@ -32,7 +32,7 @@ export const LogIn = () => {
 				.then((userCredential) => {
 					// Успішно залогіновано
 					const user = userCredential.user;
-					console.log("Logged in successfully", user);
+					// console.log("Logged in successfully", user);
 					page("/");
 				})
 				.catch((error) => {
@@ -58,7 +58,7 @@ export const LogIn = () => {
 			.then((result) => {
 				// Успішно залогіновано
 				const user = result.user;
-				console.log("Logged in successfully", user);
+				// console.log("Logged in successfully", user);
 				page("/");
 			})
 			.catch((error) => {

@@ -15,7 +15,6 @@ export const createUser = async (email, password, name) => {
 			password
 		);
 		await updateProfile(user, { displayName: name });
-		console.log(user);
 		localStorage.setItem("user", JSON.stringify(user));
 	} catch (error) {
 		if(error.code = "auth/missing-password"){

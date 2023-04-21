@@ -55,7 +55,7 @@ export const CreateAccount = () => {
 			page.redirect("/");
 		} else {
 			// Користувач вже зареєстрований, перенаправляємо на сторінку входу
-			console.log("No user is signed in.");
+			// console.log("No user is signed in.");
 			// page.redirect("/login");
 			// TODO
 		}

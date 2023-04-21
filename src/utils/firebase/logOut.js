@@ -5,7 +5,7 @@ const auth = getAuth();
 export const logOut = (auth) => {
 	signOut(auth)
 		.then(() => {
-			console.log("User signed out successfully.");
+			// console.log("User signed out successfully.");
 			localStorage.clear();
 			page.redirect("/login");
 		})

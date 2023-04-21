@@ -10,7 +10,7 @@ export const getFavoriteCityFromFirebase = async (uid) => {
 			const city = Object.values(data);
 			return city;
 		} else {
-			console.log("No data available");
+			// console.log("No data available");
 			return null;
 		}
 	} catch (error) {

@@ -27,8 +27,6 @@ export const FavoriteModal = () => {
 				setEventOnFavoriteListInModal(cityItems, modalFavorite)
 				
 			});
-		} else {
-			console.log("User is null");
 		}
 	};
 	
