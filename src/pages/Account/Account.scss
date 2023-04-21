@@ -1,0 +1,151 @@
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+  &__logo {
+    cursor: pointer;
+    z-index: 100;
+    height: 20px;
+    position: fixed;
+    top: 45px;
+    right: 45px;
+
+    &:hover {
+      opacity: .9;
+    }
+  }
+}
+
+.form_wrapper {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  //background: #022541;
+  align-items: center;
+
+  &__crete-account {
+    font-size: 35px;
+    margin-bottom: 0;
+    text-align: center;
+    color: azure;
+  }
+
+  &__text {
+    font-size: 19px;
+    color: azure;
+    line-height: 28px;
+    text-align: center;
+    margin: 10px 0 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 280px;
+    max-width: 395px;
+    width: 100%;
+    padding: 10px;
+    input {
+      background: transparent;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #ccc;
+      padding: 12px;
+      color: white;
+      &::placeholder{
+        color: azure;
+      }
+    }
+
+    [type="submit"] {
+      margin-top: 30px;
+      background: rgba(254, 254, 254, 0.96);
+      border-radius: 15px;
+      color: #191919;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+      height: 50px;
+    }
+    [type="button"] {
+      border: 1px solid #4D4B4B;
+      border-radius: 20px;
+      background: transparent;
+      color: white;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      span {
+        margin-left: 13px;
+      }
+    }
+
+    button {
+      &:active {
+        transform: scale(.98);
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: rgba(186, 186, 186, 0.85);
+
+      span {
+        color: #FEFEFE;
+        cursor: pointer;
+
+        &:hover {
+          opacity: .9;
+        }
+
+        &:active {
+          transform: scale(.96);
+        }
+      }
+    }
+  }
+}
+
+.show_picture {
+  height: 100vh;
+  width: 50%;
+  display: block;
+  //background-image: url(/assets/images/no-background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  @media screen and (max-width: 4440px) {
+    display: none;
+  }
+}
+
+
+.or-line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.or {
+  margin: 0 10px;
+  font-weight: bold;
+  color: #999;
+}

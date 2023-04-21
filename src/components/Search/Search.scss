@@ -1,0 +1,84 @@
+form{
+  label{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    position: relative;
+    img{
+      width: 25px;
+      position: absolute;
+      right: 0;
+      z-index: 100;
+      top: 15%;
+      cursor: pointer;
+      //filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(165%) hue-rotate(88deg) brightness(103%) contrast(103%);
+      //&:active{
+      //  transform: scale(0.96);
+      //}
+    }
+  }
+}
+.inputbox {
+  position: relative;
+  width: 270px;
+}
+
+.inputbox input {
+  position: relative;
+  width: 100%;
+  padding: 10px 5px 7px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: #23242a;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.inputbox span {
+  position: absolute;
+  left: 0;
+  padding: 10px 5px 5px;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 00.05em;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.inputbox input:valid ~span,
+.inputbox input:focus ~span {
+  //color: #45f3ff;
+  transform: translateX(-5px) translateY(-30px);
+  font-size: 0.9em;
+}
+
+.inputbox i  {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #45f3ff;
+  border-radius: 4px;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 9;
+}
+.fail i  {
+  background: #b60404;
+}
+
+.inputbox input:valid ~i,
+.inputbox input:focus ~i {
+  height: 35px;
+}
+input:-webkit-autofill {
+  border-radius: 5px;
+}
+.search{
+  margin-bottom: 50px;
+}

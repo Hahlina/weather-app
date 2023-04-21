@@ -1,0 +1,31 @@
+
+
+
+.citiesList{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  font-size: 20px;
+  gap: 7px;
+
+  li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &:hover{
+      color: #b7dde3;
+    }
+    &:before{
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 20px;
+      background: #267d83;
+      margin-right: 8px;
+    }
+  }
+}
