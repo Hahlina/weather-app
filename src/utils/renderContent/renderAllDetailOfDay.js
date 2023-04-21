@@ -1,5 +1,4 @@
 import moment from "moment/moment.js";
-import {setSwiperForDetatils} from "../swiper.js";
 
 export function renderAllDetailOfDay(data, index){
 	const allInfoOfDay = document.querySelector(".allInfoOfDay");

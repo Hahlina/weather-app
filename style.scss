@@ -221,9 +221,9 @@ body {
 
 
 .swiper-wrapper-2,{
-  margin-top: 0;
   color: azure;
   font-size: 14px;
+  //margin: 0 auto;
 
   .swiper-slide-2{
     padding-bottom: 20px;
@@ -290,8 +290,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
   margin-bottom: 20px;
+  @media screen and (min-width: 877px){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .swiper-wrapper-2{
