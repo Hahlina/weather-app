@@ -1,5 +1,5 @@
 `use strict`
-import {validForm} from "./validSearchCity.js";
+import { validForm} from "./validSearchCity.js";
 import {Loader} from "../components/Preloader/Preloader.js";
 
 export async function fetchDataWeather(url){
