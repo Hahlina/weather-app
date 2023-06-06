@@ -1,9 +1,9 @@
 
-## Weather App Project
+# Weather App Project
 
-# This is my "Weather App" project, designed to retrieve current weather information for various locations worldwide. It allows users to quickly and easily obtain up-to-date data on temperature, humidity, wind speed, and other weather conditions.
+## This is my "Weather App" project, designed to retrieve current weather information for various locations worldwide. It allows users to quickly and easily obtain up-to-date data on temperature, humidity, wind speed, and other weather conditions.
 
-# Technologies and Libraries
+## Technologies and Libraries
 In this project, I utilized the following technologies and libraries:
  - HTML: Used to create the basic structure of the web page.
  - SCSS: Used for styling and formatting the web page to provide a user-friendly and visually appealing interface.
@@ -15,7 +15,7 @@ In this project, I utilized the following technologies and libraries:
  - Firebase: Implemented for user authentication using email and Google accounts, as well as for storing users' favorite cities in the database.
  - SweetAlert2 Library: Utilized for creating modal windows with warnings, success messages, or error alerts, adding interactivity to the project.
 
-# Instructions
+## Instructions
 
 - Clone the repository or download it as a ZIP archive.
 - Obtain an API key from the OpenWeatherMap website and save it.
@@ -23,7 +23,7 @@ In this project, I utilized the following technologies and libraries:
 - Register on Firebase and set up authentication for email and Google.
 - Open the index.html file in a web browser.
 
-# Further Enhancements
+## Further Enhancements
 In the future, you can expand the functionality of the "Weather App" project by adding the following features:
 - Search functionality for specific locations or cities.
 - Additional weather parameters such as UV index, precipitation levels, etc.
