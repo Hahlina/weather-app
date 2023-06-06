@@ -8,6 +8,7 @@ In this project, I utilized the following technologies and libraries:
  - HTML: Used to create the basic structure of the web page.
  - SCSS: Used for styling and formatting the web page to provide a user-friendly and visually appealing interface.
  - Vite: A fast and easy-to-use build and development tool for web applications. It provides quick page reloading during development and optimizes performance for the final deployment.
+ - Page.js Library: Utilized for client-side routing and navigation within the Weather App, enabling smooth transitions between different sections or pages of the application. 
  - JavaScript: Implemented the functionality of the Weather App, including interaction with the weather API and data processing.
  - OpenWeatherMap API: Integrated to retrieve real-time weather data. To use it, you need to obtain an API key from the OpenWeatherMap website and include it in the project.
  - Moment.js Library: Utilized for working with dates and times, particularly for date formatting.
